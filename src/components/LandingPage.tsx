@@ -599,27 +599,27 @@ export default function LandingPage({ onSelectPortal, onSelectRegister }: Landin
 
         <div className="lp-gallery-grid">
           <div className="lp-gallery-item" onClick={() => setSelectedImage('/images/gallery4.jpg')} style={{cursor: 'pointer'}}>
-            <img src="/images/gallery4.jpg" alt="Horaires Natifs 2014/2015" className="lp-gallery-img" />
+            <img src="/images/gallery4.jpg" alt="Horaires Natifs 2014-2015" className="lp-gallery-img" />
             <div className="lp-gallery-overlay">
-              <span className="lp-gallery-text">Natifs 2014/2015</span>
+              <span className="lp-gallery-text">Natifs 2014-2015</span>
             </div>
           </div>
           <div className="lp-gallery-item" onClick={() => setSelectedImage('/images/gallery1.jpg')} style={{cursor: 'pointer'}}>
-            <img src="/images/gallery1.jpg" alt="Horaires Natifs 2016/2017" className="lp-gallery-img" />
+            <img src="/images/gallery1.jpg" alt="Horaires Natifs 2016-2017" className="lp-gallery-img" />
             <div className="lp-gallery-overlay">
-              <span className="lp-gallery-text">Natifs 2016/2017</span>
+              <span className="lp-gallery-text">Natifs 2016-2017</span>
             </div>
           </div>
           <div className="lp-gallery-item" onClick={() => setSelectedImage('/images/gallery2.jpg')} style={{cursor: 'pointer'}}>
-            <img src="/images/gallery2.jpg" alt="Horaires Natifs 2018/2019" className="lp-gallery-img" />
+            <img src="/images/gallery2.jpg" alt="Horaires Natifs 2018-2019" className="lp-gallery-img" />
             <div className="lp-gallery-overlay">
-              <span className="lp-gallery-text">Natifs 2018/2019</span>
+              <span className="lp-gallery-text">Natifs 2018-2019</span>
             </div>
           </div>
           <div className="lp-gallery-item" onClick={() => setSelectedImage('/images/gallery3.jpg')} style={{cursor: 'pointer'}}>
-            <img src="/images/gallery3.jpg" alt="Horaires Natifs 2020/2021" className="lp-gallery-img" />
+            <img src="/images/gallery3.jpg" alt="Horaires Natifs 2020-2021" className="lp-gallery-img" />
             <div className="lp-gallery-overlay">
-              <span className="lp-gallery-text">Natifs 2020/2021</span>
+              <span className="lp-gallery-text">Natifs 2020-2021</span>
             </div>
           </div>
         </div>
