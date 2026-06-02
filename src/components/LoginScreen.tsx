@@ -95,7 +95,12 @@ export default function LoginScreen({ onLogin, onRegisterClick, onBackToHome, in
         playerProfile: data.user.playerProfile,
       }, data.accessToken);
     } catch (err: any) {
-      setError(err?.message || 'Connection failed.');
+      // Improved error handling for child accounts with pending approval
+      if (accountType === 'child' && (err?.message?.includes('500') || err?.message?.includes('Internal Server Error'))) {
+        setError('Votre compte est en attente d\'approbation. Veuillez contacter l\'académie.');
+      } else {
+        setError(err?.message || 'Connection failed.');
+      }
     } finally {
       setLoading(false);
     }
