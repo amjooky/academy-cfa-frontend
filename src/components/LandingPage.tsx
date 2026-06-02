@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { useI18n } from '../lib/i18n/useI18n';
+import { useState } from 'react';
 
 interface LandingPageProps {
   onSelectPortal: (portal: 'parent' | 'child' | 'staff') => void;
@@ -7,7 +6,6 @@ interface LandingPageProps {
 }
 
 export default function LandingPage({ onSelectPortal, onSelectRegister }: LandingPageProps) {
-  const { t, isRTL } = useI18n();
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   return (
