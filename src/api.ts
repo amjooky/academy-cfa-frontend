@@ -1,12 +1,12 @@
-const AUTH_URL = import.meta.env.VITE_API_AUTH_URL || 'http://localhost:3000/api/v1/auth';
-const ACADEMY_URL = import.meta.env.VITE_API_ACADEMY_URL || 'http://localhost:3000/api/v1/academy';
-const PLANNING_URL = import.meta.env.VITE_API_PLANNING_URL || 'http://localhost:3000/api/v1/planning';
-const AI_URL = import.meta.env.VITE_API_AI_URL || 'http://localhost:3000/api/v1/ai';
-const PAYMENT_URL = import.meta.env.VITE_API_PAYMENT_URL || 'http://localhost:3000/api/v1/payment';
-const PEDAGOGY_URL = import.meta.env.VITE_API_PEDAGOGY_URL || 'http://localhost:3000/api/v1/pedagogy';
-const ANALYTICS_URL = import.meta.env.VITE_API_ANALYTICS_URL || 'http://localhost:3000/api/v1/analytics';
-const GAMIFICATION_URL = import.meta.env.VITE_API_GAMIFICATION_URL || 'http://localhost:3000/api/v1/gamification';
-const PARENT_URL = import.meta.env.VITE_API_PARENT_URL || 'http://localhost:3000/api/v1/parent';
+const AUTH_URL = import.meta.env.VITE_API_AUTH_URL || 'https://academy-saas-backend.onrender.com/api/v1/auth';
+const ACADEMY_URL = import.meta.env.VITE_API_ACADEMY_URL || 'https://academy-saas-backend.onrender.com/api/v1/academy';
+const PLANNING_URL = import.meta.env.VITE_API_PLANNING_URL || 'https://academy-saas-backend.onrender.com/api/v1/planning';
+const AI_URL = import.meta.env.VITE_API_AI_URL || 'https://academy-saas-backend.onrender.com/api/v1/ai';
+const PAYMENT_URL = import.meta.env.VITE_API_PAYMENT_URL || 'https://academy-saas-backend.onrender.com/api/v1/payment';
+const PEDAGOGY_URL = import.meta.env.VITE_API_PEDAGOGY_URL || 'https://academy-saas-backend.onrender.com/api/v1/pedagogy';
+const ANALYTICS_URL = import.meta.env.VITE_API_ANALYTICS_URL || 'https://academy-saas-backend.onrender.com/api/v1/analytics';
+const GAMIFICATION_URL = import.meta.env.VITE_API_GAMIFICATION_URL || 'https://academy-saas-backend.onrender.com/api/v1/gamification';
+const PARENT_URL = import.meta.env.VITE_API_PARENT_URL || 'https://academy-saas-backend.onrender.com/api/v1/parent';
 const TENANT = import.meta.env.VITE_DEFAULT_TENANT || 'demo';
 
 const headers = () => ({
